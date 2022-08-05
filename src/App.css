@@ -1,0 +1,126 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+.banner_img{
+  background: url('../public/images/img banner.png'); 
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.banner_para h1{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #011757;
+  padding-bottom: 1rem;
+}
+.banner_para p{
+  padding-bottom: 2.5rem;
+  margin-bottom: 0;
+}
+.banner_para Button{
+  background-color: #011757;
+  border-radius: 33px;
+  padding: 10px 36px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.banner_para Button:hover{
+  color: #011757;
+  background-color: #fbeffb;
+  border-color: #fbeffb;
+}
+.banner_para{
+  width: 50%;
+  padding-top: 18%;
+}
+.four_esay_icon {
+  margin: 12px;
+  width: 36%;
+}
+.four_step_cards {
+  border: none!important;
+  border-radius: 22px!important;
+  width: 14rem;
+}
+.nav-link {
+  color: #000 !important;
+}
+.popular_product{
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  margin: 5rem 0;
+}
+.slick-slide {
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+}
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: 0;
+  background: 0 0;
+}
+.about_learn li{
+  padding: 37px 59px;
+}
+.about_learn li a{
+  padding: 10px 0px;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  font-size: 18px;
+}
+.footer{
+  background-color: #fbeffb;
+  text-align: center;
+  padding: 33px 0;
+  margin-top: 7rem;
+}
+.footer_icon li{
+  padding-left: 23px;
+}
+
+/* slick slider  */
+.slick-dots{
+  display: flex !important;
+  justify-content: center;
+  
+}
+.slick-slider button{
+  display: none !important;
+}
+
+/* tablet screen */
+@media (max-width: 991px) {
+  .four_step_cards {
+    width: 10rem;
+}
+.title_tablet_steps{
+  font-size: 14px;
+}
+.steps_para {
+  font-size: 12px;
+}
+.mob_Bsic_data {
+  padding: 0.5rem 0.5rem;
+}
+.banner_para h1 {
+  font-size: 3rem;
+}
+  }
